@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #0f0f0f;
+}
+
+body {
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul, li {
+  list-style: none;
+}
+

@@ -1,0 +1,5 @@
+export * from "./Header.styled"
+export * from "./Content.styled"
+export * from "./Point.styled"
+export * from "./Project.styled"
+export * from "./Footer.styled"
