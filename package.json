@@ -39,6 +39,7 @@
   },
   "devDependencies": {
     "@iconify/ember": "^2.1.0",
-    "@iconify/react": "^4.1.1"
+    "@iconify/react": "^4.1.1",
+    "gh-pages": "^6.0.0"
   }
 }
