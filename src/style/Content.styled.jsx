@@ -1,6 +1,6 @@
 import styled from "styled-components"
 import { Link } from "react-router-dom"
-import mainPic from "../images/about.jpeg"
+import selfie from "../images/selfie.jpeg"
 
 export const ContentWrapper = styled.div`
     width: 100%;
@@ -20,13 +20,13 @@ export const Introduce = styled.div`
 `
 
 export const ContentPicWrap = styled.div`
-    width: 420px;
-    height: 530px;
+    width: 370px;
+    height: 470px;
     background: #fff;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url(${mainPic});
+    background-image: url(${selfie});
 `
 
 export const IconWrapper = styled.div`

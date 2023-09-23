@@ -16,7 +16,8 @@ export const Content = () => {
                     <LinkWrapper>
                         <Link to="https://github.com/Kimsunghee3">Github</Link>
                         <Link to="https://chopssal.tistory.com/">Tistory</Link>
-                        <Link to="https://open.kakao.com/o/s2ZkMDCf">Contact</Link>
+                        <Link to="https://www.notion.so/To-Do-List-b3f741ca0b8e45fb84e864814ec5f2ed">Notion</Link>
+                        <Link to="https://open.kakao.com/o/sC0AgKIf">Contact</Link>
                     </LinkWrapper>
                 </Introduce>
                 <ContentPicWrap/>    

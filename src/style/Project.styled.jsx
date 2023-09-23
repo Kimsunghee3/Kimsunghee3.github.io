@@ -14,6 +14,7 @@ export const ProjectHeader = styled.div`
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    margin-bottom: 10rem;
 `
 
 export const VideoWrap = styled.div`
@@ -23,6 +24,7 @@ export const VideoWrap = styled.div`
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-bottom: 10rem;
 `
 
 export const ProjectSub = styled.div`
@@ -44,15 +46,57 @@ export const ProjectCon = styled.image`
 export const TechWrapper = styled.div`
     width: 800px;
     height: 100px;
-    /* background-color: #fff; */
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-direction: row;
+    margin-bottom: 1rem;
 `
 
 export const TechWrap = styled.div` 
-    width: 150px;
+    width: 130px;
+    height: 50px;
+    display: flex;
+    font-size: 1.3rem;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border-radius: 1rem;
+    border: 1px solid #6277ff;
+    color: #fff;
+    letter-spacing: 3px;
+    font-weight: 300;
+`
+
+export const WalletWrap = styled.div`
+    width: 800px;
+    height: 530px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: 100;
+    margin-top: 1rem;
+`
+
+export const SubTech = styled.div`
+    width: 180px;
+    height: 50px;
+    display: flex;
+    font-size: 1.3rem;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border-radius: 1rem;
+    border: 1px solid #6277ff;
+    color: #fff;
+    letter-spacing: 3px;
+    font-weight: 300;
+`
+
+export const StyleWrap = styled.div`
+    width: 260px;
     height: 50px;
     display: flex;
     font-size: 1.3rem;

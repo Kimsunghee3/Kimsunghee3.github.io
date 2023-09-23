@@ -69,7 +69,7 @@ export const MenuWrap = styled.li`
 `
 
 export const LinkWrapper = styled.div`
-    width: 400px;
+    width: 500px;
     height: 50px;
     padding-top: 30px;
     display: flex;

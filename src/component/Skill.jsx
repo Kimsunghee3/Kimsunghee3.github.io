@@ -1,4 +1,4 @@
-import { MainSkill, ServeSkill, SkillSubWrap, SkillWrapper, SkillsWrap, SkillsWrapper} from "../style/Skill.styled"
+import { MainSkill, LibSkill, ServeSkill, SkillSubWrap, SkillWrapper, SkillsWrap, SkillsWrapper, LibSkillWrap} from "../style/Skill.styled"
 
 export const Skill = () => {
     return(
@@ -8,13 +8,7 @@ export const Skill = () => {
                 <SkillsWrapper>
                     <MainSkill>
                         <SkillsWrap>
-                            HTML
-                        </SkillsWrap>
-                        <SkillsWrap>
-                            CSS
-                        </SkillsWrap>
-                        <SkillsWrap>
-                            JS
+                            JavaScript
                         </SkillsWrap>
                         <SkillsWrap>
                             REACT
@@ -22,7 +16,44 @@ export const Skill = () => {
                         <SkillsWrap>
                             LINUX
                         </SkillsWrap>
+                        <SkillsWrap>
+                            Node.js
+                        </SkillsWrap>
+                        <SkillsWrap>
+                            MySQL
+                        </SkillsWrap>
                     </MainSkill>
+                    <ServeSkill>
+                        <SkillsWrap>
+                            Mac OS
+                        </SkillsWrap>
+                        <SkillsWrap>
+                            Windows
+                        </SkillsWrap>
+                        <SkillsWrap>
+                            CentOS
+                        </SkillsWrap>
+                        <SkillsWrap>
+                            Linux
+                        </SkillsWrap>
+                        <SkillsWrap>
+                            Axios
+                        </SkillsWrap>
+                    </ServeSkill>
+                    <LibSkill>
+                        <SkillsWrap>
+                            Redux
+                        </SkillsWrap>
+                        <LibSkillWrap>
+                            React-Redux
+                        </LibSkillWrap>
+                        <LibSkillWrap>
+                            Styled-components
+                        </LibSkillWrap>
+                        <LibSkillWrap>
+                            React Router
+                        </LibSkillWrap>
+                    </LibSkill>
                     <ServeSkill>
                         <SkillsWrap>
                             NOTION

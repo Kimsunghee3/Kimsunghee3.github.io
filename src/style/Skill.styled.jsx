@@ -21,7 +21,7 @@ export const SkillSubWrap = styled.div`
 
 export const SkillsWrapper = styled.div`
     width: 100%;
-    height: 200px;
+    height: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -47,9 +47,17 @@ export const SkillsWrap = styled.div`
 
 export const MainSkill = styled.div`
     width: 1000px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+`
+
+export const LibSkill = styled.div`
+    width: 1000px;
     height: 70px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
 `
 
@@ -59,4 +67,17 @@ export const ServeSkill = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
+`
+
+export const LibSkillWrap = styled.div`
+    width: 220px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: 600;
+    border: 3px solid; 
+    border-image: linear-gradient(to right, #ca5fff , #b3c2fdaa, #c1c19e) 1;
 `
